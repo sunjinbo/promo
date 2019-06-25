@@ -21,3 +21,12 @@ class Program:
             return True
         else:
             return False
+
+    def get_start_time(self):
+        return time.strftime("%Y-%m-%d %H:%M", time.localtime(self.start_time))
+
+    def get_end_time(self):
+        return time.strftime("%Y-%m-%d %H:%M", time.localtime(self.end_time))
+
+    def get_program_name(self):
+        return self.program_name
