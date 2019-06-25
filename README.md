@@ -1,5 +1,5 @@
 # promo
-This program use a web spider to fetching tv promo data over the network, and after that I also will build a Restfull API service for client on Aliyun. so I divide this program into four parts:
+This program use a web spider to fetching tv promo data over the network, and after that I will build a Restfull API service for some clients on Aliyun. so I divide this program into four parts:
 
 Part 1. Implements a web spider to fecthing tv promo data and store them in database;
 
